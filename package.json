@@ -1,0 +1,28 @@
+{
+  "name": "graphql-lunch-and-learn",
+  "version": "1.0.0",
+  "description": "A demonstration of graphql vs rest",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benpjenkins/graphql-lunch-and-learn.git"
+  },
+  "author": "Ben Jenkins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benpjenkins/graphql-lunch-and-learn/issues"
+  },
+  "homepage": "https://github.com/benpjenkins/graphql-lunch-and-learn#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "faker": "^4.1.0",
+    "graphql": "^15.3.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  }
+}
